@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Analytics Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="branding">
+      <div class="badge">HR</div>
+      <div>
+        <h1>People Insights</h1>
+        <p class="subtitle">Apache ECharts powered HR analytics overview</p>
+      </div>
+    </div>
+    <div class="meta">
+      <p class="meta-label">Data snapshot</p>
+      <p class="meta-value">Q1 2024 Workforce Trends</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="insights-grid">
+      <article class="card">
+        <header>
+          <h2>Headcount by Department</h2>
+          <p>Track team sizes to balance workload and budget.</p>
+        </header>
+        <div id="deptHeadcount" class="chart"></div>
+      </article>
+
+      <article class="card">
+        <header>
+          <h2>Monthly Hiring vs. Attrition</h2>
+          <p>Monitor talent acquisition and turnover trends.</p>
+        </header>
+        <div id="hireAttrition" class="chart"></div>
+      </article>
+
+      <article class="card">
+        <header>
+          <h2>Employee Satisfaction</h2>
+          <p>Pulse survey sentiment across major offices.</p>
+        </header>
+        <div id="satisfaction" class="chart"></div>
+      </article>
+
+      <article class="card">
+        <header>
+          <h2>Diversity Pipeline</h2>
+          <p>Representation across leadership levels.</p>
+        </header>
+        <div id="diversity" class="chart"></div>
+      </article>
+
+      <article class="card">
+        <header>
+          <h2>Tenure Distribution</h2>
+          <p>Experience mix to inform succession planning.</p>
+        </header>
+        <div id="tenureBreakdown" class="chart"></div>
+      </article>
+
+      <article class="card">
+        <header>
+          <h2>Work Mode Preferences</h2>
+          <p>Hybrid, remote, and on-site mix by department.</p>
+        </header>
+        <div id="workMode" class="chart"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>Data modeled for demonstration purposes. Visuals created with <a href="https://echarts.apache.org/" target="_blank" rel="noopener noreferrer">Apache ECharts</a>.</p>
+  </footer>
+</body>
+</html>
