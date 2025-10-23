@@ -1,6 +1,6 @@
 # HR Analytics Dashboard
 
-This project showcases an HR analytics dashboard built with [Apache ECharts](https://echarts.apache.org/). The page visualizes fictional workforce metrics including departmental headcount, hiring versus attrition, employee satisfaction, diversity representation, tenure mix, and work mode preferences.
+This project showcases an HR analytics dashboard built with [Apache ECharts](https://echarts.apache.org/). The page visualizes fictional workforce metrics including departmental headcount, hiring versus attrition, employee satisfaction, and diversity representation across leadership levels.
 
 ## Getting started
 
